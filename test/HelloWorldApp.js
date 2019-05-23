@@ -1,5 +1,5 @@
 
-var cie = require("../lib/cicore");
+var cie = require("../_unused/lib/cicore");
 
 
 var core = cie.getCore();
@@ -77,4 +77,4 @@ core.addConversation("Houses","Search houses", {
 })
 
 
-require("../lib/cli");
+require("../_unused/lib/cli");

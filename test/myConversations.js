@@ -1,4 +1,4 @@
-var cie = require("../lib/cicore");
+var cie = require("../_unused/lib/cicore");
 var core = cie.getCore();
 
 // todo - posibilitatea adaugarii detalii cont (intrare/iesire bani) la calendar
@@ -124,4 +124,4 @@ core.addConversation("myCalendar","Organizator Activitati",{
     }
 });
 
-require("../lib/cli");
+require("../_unused/lib/cli");
