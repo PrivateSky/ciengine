@@ -1,0 +1,63 @@
+body {
+    font: 18px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+}
+
+
+
+button{
+    background: #090036;
+    border: 1px solid #999;
+//float: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 34px;
+    margin-right: -1px;
+    margin-top: 20px;
+    padding: 1px 20px;
+    text-align: center;
+    margin-left: 30px;
+
+}
+.answer:hover{
+    background: rgba(84, 104, 94, 0.56);
+    color: #fff8f8;
+}
+
+.answer:focus {
+//outline: none;
+//background: aqua;
+
+}
+
+input{
+    margin-top: 5px;
+    margin-left: 30px;
+    background: #fff8f8;
+    color: #010106;
+}
+
+
+.output{
+    margin-top: 30px;
+
+}
+
+.console{
+    border:1px solid #2436ff;
+    padding: 20px;
+    white-space: pre-line;
+    width: 500px;
+}
+
+.hidden { display:none; }
+
+#menu{
+    margin-top: 10px;
+    background-color: #fff7bf;
+}
+
+#form{
+    margin-top: 20px;
+    background-color: #a5ffac;
+}
